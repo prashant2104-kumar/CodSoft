@@ -1,0 +1,50 @@
+#include<stdio.h>
+#include<conio.h>
+void main() 
+{ int a[3][3],b[3][3],sum[3][3],dif[3][3],mul[3][3],ch,t=0;
+printf("Enter 9 elements for the 1st Matrix\n");
+for(int i=0;i<3;i++)
+{ for(int j=0;j<3;j++)
+{ scanf("%d",&a[i][j]); } }
+printf("Enter 9 elements for the 2nd Matrix\n");
+for(int i=0;i<3;i++)
+{ for(int j=0;j<3;j++)
+{ scanf("%d",&b[i][j]); } }
+printf("Calculator\n");
+printf("Enter your choice\n");
+printf("1 for Addition\n");
+printf("2 for Subtraction\n");
+printf("3 for Multiplication\n");
+scanf("%d",&ch);
+switch(ch)
+{ case 1:
+{ for(int i=0;i<3;i++)
+{ for(int j=0;j<3;j++)
+{ sum[i][j]=a[i][j]+b[i][j]; } }
+printf("The Sum of both the Matrix\n");
+for(int i=0;i<3;i++)
+{ for(int j=0;j<3;j++)
+{ printf("Sum[%d][%d] = %d \n",i, j, sum[i][j]); } }
+break; }
+case 2:
+{ for(int i=0;i<3;i++)
+{ for(int j=0;j<3;j++)
+{ dif[i][j]=a[i][j]-b[i][j]; } }
+printf("The Difference of both the Matrix\n");
+for(int i=0;i<3;i++)
+{ for(int j=0;j<3;j++)
+{ printf("Difference[%d][%d] = %d \n",i, j, dif[i][j]); } }
+break; }
+case 3:
+{ for(int i=0;i<3;i++)    
+{ for(int j=0;j<3;j++)    
+{ mul[i][j]=0;    
+for(int k=0;k<3;k++)    
+{ mul[i][j]+=a[i][k]*b[k][j]; } } }    
+printf("The Product of both the Matrix\n");
+for(int i=0;i<3;i++)
+{for(int j=0;j<3;j++)
+{ printf("Product[%d][%d] = %d \n",i, j, mul[i][j]); } }  
+break; }
+default:
+{ printf("Sorry,Wrong Option!\n"); } } }
