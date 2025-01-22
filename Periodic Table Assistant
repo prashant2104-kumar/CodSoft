@@ -1,0 +1,249 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{ int n;
+printf("Atomic number ");
+scanf("%d",&n);
+{ if(n==1)
+{ printf("Hydrogen\nAtomic mass is 1\nElectronic configuration is 1s¹\nvalency is +1\nNon-Metal\nSolid state\nAtomic radius is 0.032nm\np-block element\n"); }
+else if(n==2)
+{printf("Helium\nAtomic mass is 4\nElectronic configuration is 1s²\nvalency is 0\nNon-Metal\nSolid state\nAtomic radius is 0.208nm\np-block element\n"); }
+else if(n==3)
+{printf("Lithium\nAtomic mass is 6\nElectronic configuration is 1s²2s¹\nvalency is +1\nMetal\nSolid state\nAtomic radius is 0.155nm\ns-block element\n"); }
+else if(n==4)
+{printf("Beryllium\nAtomic mass is 9\nElectronic configuration is 1s²2s²\nvalency is +2\nMetal\nSolid state\nAtomic radius is 0.112nm\ns-block element\n"); }
+else if(n==5)
+{printf("Boron\nAtomic mass is 10\nElectronic configuration is [He] 2s² 2p¹\nvalency is +3\nMettaloid\nSolid state\nAtomic radius is 0.098nm\np-block element\n"); }
+else if(n==6)
+{printf("Carbon\nAtomic mass is 12\nElectronic configuration is [He] 2s² 2p²\nvalency is 4\nNon-Metal\nSolid state\nAtomic radius is 0.0914nm\np-block element\n"); }
+else if(n==7) 
+{printf("Nitrogen\nAtomic mass is 14\nElectronic configuration is [He] 2s² 2p3\nvalency is -3\nNon-Metal\nGaseous state\nAtomic radius is 0.0992nm\np-block element\n"); }
+else if(n== 8)
+{printf("Oxygen\nAtomic mass is 16\nElectronic configuration is [He] 2s² 2p4\nvalency is -2\nNon-Metal\nGaseous state\nAtomic radius is 0.073nm\np-block element\n");}
+else if(n== 9)
+{printf("Florien\nAtomic mass is 18\nElectronic configuration is [He] 2s² 2p5\nvalency is -1\nNon-Metal\nGaseous state\nAtomic radius is 0.042nm\np-block element\n");}
+else if(n==10 )
+{printf("Neon\nAtomic mass is 20\nElectronic configuration is [He] 2s² 2p6\nvalency is 0\nNon-Metal\nGaseous state\natomic radius is 0.020nm\np-block element\n");}
+else if(n== 11) 
+{printf("Sodium\nAtomic mass is 23\nElectronic configuration is [Ne] 3s¹\nvalency is +1\nMetal\nSolid state\nAtomic radius is 0.190nm\ns-block element\n");}
+else if(n==12 ) 
+{printf("Magnesium\nAtomic mass is 24\nElectronic configuration is [Ne] 3s²\nvalency is +2\nMetal\nSolid state\nAtomic radius is 0.16nm\ns-block element\n"); }
+else if(n== 13)
+{printf("Aluminium\nAtomic mass is 27\nElectronic configuration is [Ne] 3s² 3p¹\nvalency is +3\nMetal\nSolid state\nAtomic radius is 0.143nm\np-block element\n");}
+else if(n==14 ) 
+{printf("Silicon\nAtomic mass is 28\nElectronic configuration if[Ne] 3s² 3p²\nvalency is 4\nMettaloid\nSolid state\nAtomic radius is 0.132nm\np-block element\n");}
+else if(n==15 )
+{printf("Phosphorus\nAtomic mass is 30\nElectronic configuration is [Ne] 3s² 3p³\nvalency is -3\nNon-Metal\nSolid state\nAtomic radius is 0.110nm\np-block element\n");}
+else if(n== 16)
+{printf("Sulfur\nAtomic mass is 32\nEectronic configuration is [Ne] 3s² 3p4\nvalency is -2\nNon-Metal\nSolid state\nAtomic radius is 0.100nm\np-block element\n");}
+else if(n==17 )
+{printf("Chlorine\nAtomic mass is 35.5\nElectronic configuration is [Ne] 3s² 3p5\nvalency is -2\nNon-Metal\nSolid state\nAtomic radius is 0.079nm\np-block element\n");}
+else if(n==18 )
+{printf("Argon\nAtomic mass is 39\nElectronic configuration is [Ne] 3s² 3p6\nvalency is 0\nNon-Metal\nSolid state\nAtomic radius is 0.07nm\np-block element\n");}
+else if(n==19)
+{printf("Pottesium\nAtomic mass is 39\nElectronic configuration is [Ar] 4s¹\nvalency is +1\nMetal\nSolid state\nAtomic radius is 0.235nm\ns-block element\n");}
+else if(n==20)
+{printf("Calcium\nAtomic mass is 40\nElectronic configuration is [Ar] 4s²\nvalency is +2\nMetal\nSolid state\nAtomic radius is 0.197nm\ns-block element\n");}
+else if(n==21 )
+{printf("Scandium\nAtomic radius is 44\nElectronic configuration is [Ar] 4s² 3d¹\nvalency is +2\nMetal\nSolid state\nAtomic radius is 0.144nm\nd-block element\n");}
+else if(n== 22) 
+{printf("Titanium\nAtomic radius is 47\nElectronic configuration is [Ar] 4s² 3d²\nvalency is +2\nMetal\nSolid state\nAtomic radius is 0.147nm\nd-block element\n");}
+else if(n==23 )
+{printf("Vanadium\nAtomic mass is 50\nElectronic configuration is [Ar] 3d³ 4s²\nvalency is +2\nMetal\nSolid state\nAtomic radius is 0.179nm\nd-block element\n");}
+else if(n==24 ) 
+{printf("Chromium\nAtomic mass is 52\nElectronic configuration is [Ar] 3d⁵ 4s¹\nvalency is +1\nMetal\nSolid state\nAtomic radius is 0.189nm\nd-block element\n");}
+else if(n==25 )
+{printf("Manganese\nAtomic mass is 54\nElectronic configuration is [Ar] 4s² 3d⁵\nvalency is +2\nMetal\nSolid state\nAtomic radius is 0.197nm\nd-block element\n");}
+else if(n== 26) 
+{printf("Iron\nAtomic mass is 55\nElectronic configuration is [Ar] 3d⁶ 4s²\nvalency is +2\nMetal\nSolid state\nAtomic radius is 0.194nm\nd-block element\n");}
+else if(n== 27) 
+{printf("Cobalt\nAtomic mass is 59\nElectronic configuration is [Ar] 3d⁷ 4s²\nvalency is +2\nMetal\nSolid state\nAtomic radius is 0.192nm\nd-block element\n");}
+else if(n== 28) 
+{printf("Nickel\nAtomic mass is 58\nElectronic configuration is [Ar] 3d⁸ 4s²\nvalency is +2\nMetal\nSolid state\nAtomic radius is 0.163nm\nd-block element\n");}
+else if(n== 29) 
+{printf("Copper\nAtomic mass is 63.5\nElectronic configuration is [Ar] 4s¹ 3d¹⁰\nvalency is +1\nMetal\nSolid state\nAtomic radius is 0.140nm\nd-block element\n");}
+else if(n== 30) 
+{printf("Zink\nAtomic mass is 65\nElectronic configuration is [Ar] 3d¹⁰ 4s²\nvalency is +2\nMetal\nSolid state\nAtomic radius is 0.139nm\nd-block element\n");}
+else if(n== 31) 
+{printf("Gallium\nAtomic mass is 69\nElectronic configuration is [Ar] 3d¹⁰ 4s² 4p¹\nMetal\nSolid state\nAtomic radius is 0.187nm\np-block element\n");}
+else if(n== 32) 
+{printf("Germanium\nAtomic mass is 72\nElectronic configuration is [Ar] 3d¹⁰ 4s² 4p²\nMetalloid\nSolid state\nAtomic radius is 0.211nm\np-block element\n");}
+else if(n== 33) 
+{printf("Arsenik\nAtomic mass is 78\nElectronic configuration is [Ar] 3d¹⁰ 4s² 4p³\nMetalloid\nSolid state\nAtomic radius is 0.185nm\np-block element\n");}
+else if(n== 34) 
+{printf("Selenium\nAtomic mass is 79\nElectronic configuration is [Ar] 3d¹⁰ 4s² 4p⁴\nNon-Metal\nSolid state\nAtomic radius is 0.190nm\np-block element\n");}
+else if(n== 35) 
+{printf("Bromine\nAtomic mass is 80\nElectronic configuration is [Ar] 3d¹⁰ 4s² 4p⁵\nNon-Metal\nLiquid state\nAtomic radius is 0.183nm\np-block element\n");}
+else if(n== 36) 
+{printf("Krypton\nAtomic mass is 83\nElectronic configuration is [Ar] 4s² 3d¹⁰ 4p⁶\nNon-Metal\nGaseous state\nAtomic radius is 0.202nm\np-block element\n");}
+else if(n==37 ) 
+{printf("Rubidium\nAtomic mass is 85\nElectronic configuration is [Kr] 5s¹\nMetal\nSolid state\nAtomic radius is 0.303nm\nd-block element\n");}
+else if(n==38 ) 
+{printf("Strontium\nAtomic mass is 87.5\nElectronic configuration is [Kr] 5s²\nMetal\nSolid state\nAtomic radius is 0.249nm\nd-blocl element\n");}
+else if(n==39 ) 
+{printf("Yttrium\nAtomic mass is 89\nElectronic configuration is [Kr] 5s²4d¹\nMetal\nSolid state\nAtomic radius is 0.219nm\nd-block element\n");}
+else if(n== 40) 
+{printf("Zirconium\nAtomic mass is 91\nElectronic configuration is [Kr] 4d² 5s²\nMetal\nSolid state\nAtomic radius is 0.186nm\nd-block element\n");}
+else if(n== 41) 
+{printf("Niobium\nAtomic mass is 93\nElectronic configuration is [Kr] 5s¹ 4d⁴\nMetal\nSolid state\nAtomic radius is 0.207nm\nd-block element\n");}
+else if(n==42 ) 
+{printf("Molybdenum\nAtomic mass is 96\nElectronic configuration is [Kr] 4d⁵ 5s¹\nMetal\nSolid state\nAtomic radius is 0.195nm\nd-block element\n");}
+else if(n==43 ) 
+{printf("Technetium\nAtomic mass is 98\nElectronic configuration is  [Kr] 4d5 5s2\nMetal\nSolid state\nAtomic radius is 0.202nm\nd-block element\n");}
+else if(n==44 ) 
+{printf("Ruthenium\nAtomic mass is 101\nElectronic configuration is ⦏Kr⦐ 4d⁷ 5s¹\nMetal\nSolid state\nAtomic radius is 0.172nm\nd-block element\n");}
+else if(n== 45) 
+{printf("Rhodium\nAtomic mass is 103\nElectronic configuration is [Kr] 4d8 5s1\nMetal\nSolid state\nAtomic radius is 0.158nm\nd-block element\n");}
+else if(n== 46) 
+{printf("Palladium\nAtomic mass is 106\nElectronic configuration is [Kr] 4d¹⁰\nMetal\nSolid state\nAtomic radius is 0.193nm\nd-block element\n");}
+else if(n==47 ) 
+{printf("Silver\nAtomic mass is 107\nElectronic configuration is [Kr] 4d¹⁰ 5s¹\nMetal\nSolid state\nAtomic radius is 0.217nm\nd-block element\n");}
+else if(n== 48) 
+{printf("Cadmium\nAtomic mass is 112\nElectronic configuration is [Kr] 4d¹⁰5s²\nMetal\nSolid state\nAtomic radius is 0.206nm\nd-block element\n");}
+else if(n== 49) 
+{printf("Indium\nAtomic mass is 114\nElectronic configuration is [Kr]4d10 5s2 5p1\nMetal\nSolid state\nAtomic radius is 0.206nm\np-block element\n");}
+else if(n== 50) 
+{printf("Tin\nAtomic mass is 118\nElectronic configuration is [Kr] 4d¹⁰5s²5p²\nMetal\nSolid state\nAtomic radius is 0.162nm\np-block element\n");}
+else if(n== 51) 
+{printf("Antimony\nAtomic mass is 121\nElectronic configuration is [Kr] 4d10 5s2 5p3\nMetalloid\nSolid state\np-block element\n");}
+else if(n== 52) 
+{printf("Tellurium\nAtomic mass is 127\nElectronic configuration is [Kr] 4d10 5s2 5p4\nMetalloids\nSolid state\np-block element\n");}
+else if(n==53 ) 
+{printf("Iodine\nAtomic mass is 126\nElectronic configuration is [Kr] 4d¹⁰ 5s² 5p⁵\nNon-Metal\nSolid state\np-block element\n");}
+else if(n== 54) 
+{printf("Xenon\nAtomic mass is 131\nElectronic configuration is [Kr] 4d¹⁰ 5s² 5p⁶\nNon-Metal\nGaseous state\np-block element\n");}
+else if(n== 55) 
+{printf("Casium\nAtomic mass is 132.5\nElectronic configuration is [Xe] 6s1\nMetal\nSolid state\ns-block element\n");}
+else if(n== 56) 
+{printf("Barium\nAtomic mass is 137\nElectronic configuration is [Xe] 6s2\nMetal\nSolid state\ns-block element\n");}
+else if(n== 57) 
+{printf("Lanthanum\nAtomic mass is 139\nElectronic configuration is [Xe] 5d¹ 6s²\nMetal\nSolid state\nd-block element\n");}
+else if(n== 58) 
+{printf("Cerium\nAtomic mass is 140\nElectronic configuration is [Xe] 4f¹ 5d¹ 6s²\nMetal\nSolid state\nf-block element\n");}
+else if(n==59 ) 
+{printf("Praseodymium\nAtomic mass is 141\nElectronic configuration is [Xe] 4f3 6s2\nMetal\nSolid state\nf-block element\n");}
+else if(n==60 ) 
+{printf("Neodymium\nAtomic mass is 145\nElectronic configuration is [Xe] 4f4 6s2\nMetal\nSolid state\nf-block element\n");}
+else if(n== 61) 
+{printf("Promethium\nAtomic mass is 145\nElectronic configuration is [Xe] 4f⁵ 6s²\nMetal\nSolid state\nf-block element\n");}
+else if(n== 62) 
+{printf("Samarium\nAtomic mass is 150\nElectronic configuration is [Xe] 4f⁶ 6s²\nMetal\nSolid state\nf-block element\n");}
+else if(n== 63) 
+{printf("Europium\nAtomic mass is 151\nElectronic configuration is Xe 4f7 6s2\nMetal\nSolid state\nf-block element\n");}
+else if(n== 64) 
+{printf("Gadolinium\nAtomic mass is 157\nElectronic configuration is Xe 4f7 5d1 6s2\nMetal\nSolid state\nf-block element\n");}
+else if(n== 65) 
+{printf("Terbium\nAtomic mass is 159\nElectronic configuration is [Xe] 4f⁹ 6s²\nMetal\nSolid state\nf-block element\n");}
+else if(n== 66) 
+{printf("Dyaprosium\nAtomic mass is 162.5\nElectronic configuration is Xe 4f10 6s2\nMetal\nSolid state\nf-block element\n");}
+else if(n== 67) 
+{printf("Holmium\nAtomic mass is 165\nElectronic configuration is  [Xe] 4f11 6s2\nMetal\nSolid state\nf-block element\n");}
+else if(n==68 ) 
+{printf("Erbium\nAtomic mass is 167\nElectronic configuration is Xe 4f12 6s2\nMetal\nSolid state\nf-block element\n");}
+else if(n==69 ) 
+{printf("Thulium\nAtomic mass is 169\nElectronic configuration is Xe 4f13 6s2\nMetal\nSolid state\nf-block element\n");}
+else if(n== 70) 
+{printf("Yitterbium\nAtomic mass is 173\nElectronic configuration is Xe 4f14 6s2\nMetal\nSolid state\nf-block element\n");}
+else if(n==71 ) 
+{printf("Lutetium\nAtomic mass is 175\nElectronic configuration is Xe 4f14 5d1 6s2\nMetal\nSolid state\nf-block element\n");}
+else if(n== 72) 
+{printf("Hafnium\nAtomic mass is 178\nElectronic configuration is [Xe] 4f¹⁴ 5d² 6s²\nMetal\nSolid state\nd-block element\n");}
+else if(n==73 ) 
+{printf("Tantalum\nAtomic mass is 181\nElectronic configuration is [Xe] 4f¹⁴ 5d³ 6s²\nMetal\nSolid state\nd-block element\n");}
+else if(n== 74) 
+{printf("Tungsten\nAtomic mass is 183\nElectronic configuration is [Xe] 6s² 4f¹⁴ 5d⁴\nMetal\nSolid state\nd-block element\n");}
+else if(n==75 ) 
+{printf("Rhenium\nAtomic mass is \nElectronic configuration is Xe 4f14 5d5 6s2\nMetal\nSolid state\nd-block element\n");}
+else if(n== 76) 
+{printf("Osmium\nAtomic mass is \nElectronic configuration is Xe 4f14 5d6 6s2\nMetal\nSolid state\nd-block element\n");}
+else if(n== 77) 
+{printf("Iridium\nAtomic mass is \nElectronic configuration is [Xe] 4f14 5d7 6s2\nMetal\nSolid state\nd-block element\n");}
+else if(n== 78) 
+{printf("Platinum\nAtomic mass is \nElectronic configuration is [Xe] 4f¹⁴ 5d⁹ 6s¹\nMetal\nSolid state\nd-block element\n");}
+else if(n==79 ) 
+{printf("Gold\nAtomic mass is \nElectronic configuration is [Xe] 6s¹ 4f¹⁴ 5d¹⁰\nMetal\nSolid state\nd-block element\n");}
+else if(n==80 ) 
+{printf("Mercury\nAtomic mass is \nElectronic configuration is [Xe] 4f¹⁴ 5d¹⁰ 6s²\nMetal\nSolid state\nd-block element\n");}
+else if(n== 81) 
+{printf("Thallium\nAtomic mass is \nElectronic configuration is Xe 4f14 5d10 6s2 6p1\nMetal\nSolid state\np-block element\n");}
+else if(n== 82) 
+{printf("Lead\nAtomic mass is \nElectronic configuration is [Xe] 6s² 4f¹⁴ 5d¹⁰ 6p²\nMetal\nSolid state\np-block element\n");}
+else if(n== 83) 
+{printf("Bismuth\nAtomic mass is \nElectronic configuration is [Xe] 4f14 5d10 6s2 6p3\nMetal\nSolid state\np-block element\n");}
+else if(n== 84)
+{printf("Polonium\nAtomic mass is \nElectronic configuration is [Xe] 6s2 4f14 5d10 6p4\nMetalloid\nSolid state\np-block element\n");}
+else if(n== 85) 
+{printf("Astatine\nAtomic mass is \nElectronic configuration is [Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁵\nMetalloid\nSolid state\np-block element\n");}
+else if(n== 86) 
+{printf("Radon\nAtomic mass is \nElectronic configuration is [Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁶\nNon-Metal\nGaseous state\np-block element\n");}
+else if(n== 87) 
+{printf("Francium\nAtomic mass is \nElectronic configuration is [Rn] 7s¹\nMetal\nSolid state\ns-block element\n");}
+else if(n== 88) 
+{printf("Radium\nAtomic mass is \nElectronic configuration is [Rn] 7s2\nMetal\nSolid state\ns-block element\n");}
+else if(n==89 ) 
+{printf("Actinium\nAtomic mass is \nElectronic configuration is [Rn] 6d1 7s2\nMetal\nSolid state\nd-block element\n");}
+else if(n==90 ) 
+{printf("Thorium\nAtomic mass is \nElectronic configuration is ⦏Rn⦐ 6d² 7s²\nMetal\nSolid state\nf-block element\n");}
+else if(n== 91) 
+{printf("Protactinium\nAtomic mass is \nElectronic configuration is [Rn] 5f2 6d1 7s2\nMetal\nSolid state\nf-block element\n");}
+else if(n== 92) 
+{printf("Uranium\nAtomic mass is \nElectronic configuration is [Rn] 5f³ 6d¹ 7s²\nMetal\nSolid state\nf-block element\n");}
+else if(n== 93) 
+{printf("Neptunium\nAtomic mass is \nElectronic configuration is [Rn] 5f4 6d1 7s2\nMetal\nSolid state\nf-block element\n");}
+else if(n==94 ) 
+{printf("Plutonium\nAtomic mass is \nElectronic configuration is [Rn] 5f6 7s2\nMetal\nSolid state\nf-block element\n");}
+else if(n== 95) 
+{printf("Americium\nAtomic mass is \nElectronic configuration is [Rn] 5f7 7s2\nMetal\nNot found in Nature\nf-block element\n");}
+else if(n== 96) 
+{printf("Curium\nAtomic mass is \nElectronic configuration is [Rn] 5f7 6d1 7s2\nMetal\nNot found in Nature\nf-block element\n");}
+else if(n== 97) 
+{printf("Berkelium\nAtomic mass is \nElectronic configuration is [Rn] 5f9 7s2\nMetal\nNot found in Nature\nf-block element\n");}
+else if(n== 98) 
+{printf("Californium\nAtomic mass is \nElectronic configuration is [Rn] 5f10 7s2\nMetal\nNot found in Nature\nf-block element\n");}
+else if(n==99 ) 
+{printf("Einsteinium\nAtomic mass is \nElectronic configuration is [Rn] 5f11 7s2\nMetal\nNot found in Nature\nf-block element\n");}
+else if(n== 100) 
+{printf("Fermium\nAtomic mass is \nElectronic configuration is [Rn] 5f12 7s2\nMetal\nNot found in Nature\nf-block element\n");}
+else if(n==101 ) 
+{printf("Mendelevium\nAtomic mass is \nElectronic configuration is [Rn] 5f¹³ 7s²\nMetal\nNot found in Nature\nf-block element\n");}
+else if(n==102 ) 
+{printf("Nobelium\nAtomic mass is \nElectronic configuration is  [Rn] 5f14 7s2\nMetal\nNot found in Nature\nf-block element\n");}
+else if(n==103 ) 
+{printf("Lawrencium\nAtomic mass is \nElectronic configuration is [Rn] 5f¹⁴ 7s² 7p¹\nMetal\nNot found in Nature\nf-block element\n");}
+else if(n== 104) 
+{printf("Rutherfordium\nAtomic mass is \nElectronic configuration is [Rn] 5f14 6d2 7s2\nMetal\nNot found in Nature\nf-block element\n");}
+else if(n== 105) 
+{printf("Dubnium\nAtomic mass is \nElectronic configuration is [Rn] 5f14 6d3 7s2\nMetal\nNot found in Nature\nd-block element\n");}
+else if(n== 106)
+{printf("Seaborgium\nAtomic mass is \nElectronic configuration is [Rn] 5f14 6d4 7s2\nMetal\nNot found in Nature\nd-block element\n");}
+else if(n==107)
+{printf("Bohrium\nAtomic mass is \nElectronic configuration is [Rn] 5f14 6d5 7s2\nMetal\nNot found in Nature\nd-block element\n");}
+else if(n==108)
+{printf("Hassium\nAtomic mass is \nElectronic configuration is [Rn] 7s25f146d6\nMetal\nNot found in Nature\nd-block element\n");}
+else if(n==109)
+{printf("Meitnerium\nAtomic mass is \nElectronic configuration is [Rn] 5f14 6d7 7s2 (predicted)\nMetal\nNot found in Nature\nd-block element\n");}
+else if(n==110)
+{printf("Darmstadtium\nAtomic mass is \nElectronic configuration is [Rn] 7s2 5f14 6d8\nMetal\nNot found in Nature\nd-block element\n");}
+else if(n==111)
+{printf("Roentgenium\nAtomic mass is 272\nElectronic configuration is [Rn] 7s2 5f14 6d9\nMetal\nNot found in Nature\nd-block element\n");}
+else if(n==112)
+{printf("Copernicium\nAtomic mass is 277\nElectronic configuration is perhaps [Rn] 5f14 6d10 7s2 (guess based on mercury)\nMetal\nNot found in Nature \nd-block element\n");}
+else if(n==113)
+{printf("Nihonium\nAtomic mass is 286\nElectronic configuration is [Rn] 5f14 6d10 7s2 7p1\nMetal\nNot found in Nature\np-block element\n");}
+else if(n==114)
+{printf("Flerovium\nAtomic mass is 289\nElectronic configuration is  [Rn] 5f14 6d10 7s2 7p2\nMetal\nNot found in Nature\np-block element\n");}
+else if(n==115)
+{printf("Moscovium\nAtomic mass is 290\nElectronic configuration is [Rn] 5f14 6d10 7s2 7p3 (predicted)\nMetal\nNot found in Nature\np-block element\n");}
+else if(n==116)
+{printf("Livermorium\nAtomic mass is 293\nElectronic configuration is [Rn] 5f14 6d10 7s2 7p4 (predicted)\nMetal\nNot found in Nature\np-block element\n");}
+else if(n==117)
+{printf("Tennessine\nAtomic mass is 294\nElectronic configuration is [Rn] 5f14 6d10 7s2 7p5\nMetal\nNot found in Nature\np-block element\n");}
+else if(n==118)
+{printf("Oganesson\nAtomic mass is 294\nElectronic configuration is [Rn] 7s2 7p6 5f14 6d10\nMetal\nNot found in Nature\np-block element\n"); }
+else
+{printf("Sorry,Wrong input!\nAtomic number should be between 1 and 118"); } }
+printf("\n");
+printf("\n");
+printf("##Modern Periodic Table\nThe modern periodic table of elements is the one that we use today.\nIt is based on the concept of Mendeleev's periodic table \nbut differs in the fact that the elements are arranged in the\nincreasing order of atomic number,not atomic mass.");
+getch();
+}
